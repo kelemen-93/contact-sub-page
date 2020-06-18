@@ -1,0 +1,138 @@
+/* === Header === */ 
+
+.header {
+  height: 80px;
+  background-color: #6200ea;
+}
+
+.header-wrapper {
+  display: table;
+  height: 100%;
+}
+
+.header-content {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+
+/* Ide kell majd hogy a logót és a navigációs bar-t merre floatoljam*/
+
+/* Ide meg az kellene, hogy a logot vagy a navigációs bárt mennyivel kell eltolni (margin)*/
+
+/* === Header_Horizontal Navivgation Bar === */
+
+.navigation-link:first-child {
+  margin-right: 68px;
+}
+
+.navigation-link {
+  color: #f4f3f5;
+  opacity: 0.65;
+  padding-bottom: 28px;
+  margin-right: 60px;
+}
+
+.navigation-link:last-child {
+  margin-right: 0rem;
+}
+
+.navigation-link:visited {
+  color: #f4f3f5;
+}
+
+.navigation-link:hover {
+  color: #ffffff;
+  border-bottom: solid;
+  border-color: #ffffff;
+}
+
+/* === Containers === */
+
+.container {
+  border-radius: 15px;
+  padding: 60rem;
+  background-color: #ffffff;
+  
+}
+
+.container-image {
+  height: 280px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.container-personal-info {
+  height: 210px;
+  width: 100%;
+}
+
+.social-link {
+  background-color: #6200ea;
+  color: #ffffff;
+}
+
+.social-link:visited {
+  background-color: #6200ea;
+  color: #ffffff;
+}
+
+/* === Text Input === */
+
+.input {
+  background-color: #f4f3f5;
+  color: #211138#;
+  opacity: 0.25;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+.text-input {
+  height: 50px;
+  width: 100%;
+  padding-bottom: 13px;
+}
+
+.message-input {
+  height: 150px;
+  width: 100%;
+  padding-bottom: 116px;
+}
+
+.input:hover {
+  border-bottom: solid;
+  border-color: #6200ea;
+}
+
+/* === Button === */
+
+.button {
+  display: inline-block;
+  width: 420px;
+  border-radius: 24px;
+  border: 2px solid #6200ea;
+  color: #ffffff;
+  padding: 18px 0px;
+  text-align: center;
+}
+
+/* === Footer === */
+
+footer {
+  height: 100px;
+  padding: 43px 0px 42px 0px;
+  text-align: center;
+  background-color: #211138;
+}
+
+.footer-copyright {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2.4px;
+  color: #b2acba;
+}
+
+.footer-brand-name, .footer-student-name {
+  color: #6200ea;
+}
