@@ -1,0 +1,43 @@
+/* === General Options === */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+}
+
+h2, h6, p, input {
+  margin-bottom: 0rem;
+}
+
+h2, h6, p, input {
+  margin-bottom: 1.071rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* === Typography === */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f3f4f5;
+  color: #211138;
+}
+
+h6, a, input {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+h6, a {
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+}
+
+h2 {
+  font-size: 40px;
+}

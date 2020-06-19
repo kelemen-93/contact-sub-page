@@ -1,0 +1,44 @@
+/* === Lyaout Items === */
+
+.layout-item-full-width {
+  width: 100%;
+}
+
+.layout-item-70-percent {
+  width: 70%;
+}
+
+.layout-item-49-percent-with-gutter {
+  width: calc(49% - 15px);
+}
+
+.layout-item-w-sticked-footer {
+  min-height: calc(100vh - 80px);
+}
+
+.layout-item-centered-horizontally {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.layout-item-floated-left {
+  float: left;
+}
+
+.layout-item-floated-right {
+  float: right;
+}
+
+/* === Intervals === */
+
+.gutter-horizontal {
+  margin-bottom: 40px;
+}
+
+/* === Helpers === */
+
+.clearfix:: after {
+  content: "";
+  clear: both;
+  display: table;
+}
