@@ -28,7 +28,7 @@ body {
   color: #211138;
 }
 
-h6, a, input {
+h6, a, input, h2 {
   font-size: 12px;
   font-weight: bold;
 }
@@ -48,4 +48,11 @@ h2 {
 
 .address, .phone-number, .email {
   color: #6200ea;
+}
+
+.large-paragraph {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  font-weight: normal;
 }

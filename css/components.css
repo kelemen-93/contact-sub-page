@@ -97,11 +97,14 @@
 /* === Text Input === */
 
 .input {
-  background-color: #f4f3f5;
-  color: #211138#;
-  opacity: 0.25;
+  color: #211138;
   padding-top: 16px;
   padding-left: 24px;
+  border: 0px;
+}
+
+.text-input, .message-input {
+  background-color: #f4f3f5;
 }
 
 .text-input {
@@ -125,12 +128,18 @@
 
 .button {
   display: inline-block;
-  width: 420px;
+  width: 100%;
   border-radius: 24px;
   border: 2px solid #6200ea;
   color: #ffffff;
   padding: 18px 0px;
   text-align: center;
+  background-color: #6200ea;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #6800ea;
 }
 
 /* === Footer === */
