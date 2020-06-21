@@ -1,43 +1,52 @@
 /* === Lyaout Items === */
 
-.layout-item-full-width {
+.layout_item--full-width {
   width: 100%;
+  display: block;
 }
 
-.layout-item-70-percent {
+.layout_item--70-percent {
   width: 70%;
 }
 
-.layout-item-49-percent-with-gutter {
+.layout_item--42-percent {
+  width: 42%;
+}
+
+.layout_item--58-percent {
+  width: 58%;
+}
+
+.layout_item--49-percent-with-gutter {
   width: calc(49% - 15px);
 }
 
-.layout-item-w-sticked-footer {
+.layout_item--content-w-sticked-footer {
   min-height: calc(100vh - 80px);
 }
 
-.layout-item-centered-horizontally {
+.layout_item--centered-horizontally {
   margin-right: auto;
   margin-left: auto;
 }
 
-.layout-item-floated-left {
+.layout_item--floated-left {
   float: left;
 }
 
-.layout-item-floated-right {
+.layout_item--floated-right {
   float: right;
 }
 
 /* === Intervals === */
 
-.gutter-horizontal {
+.gutter--horizontal {
   margin-bottom: 40px;
 }
 
 /* === Helpers === */
 
-.clearfix:: after {
+.clearfix::after {
   content: "";
   clear: both;
   display: table;

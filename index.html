@@ -4,19 +4,20 @@
   <meta charset="utf-8">
   <title>Contact</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/reset.css" type="text/css" rel="stylesheet">
-  <link href="css/components.css" type="text/css" rel="stylesheet">
-  <link href="css/base.css" type="text/css" rel="stylesheet">
-  <link href="css/layout.css" type="text.css" rel="stylesheet">
+  <link href="css/reset.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/layout.css" rel="stylesheet">
+  <link href="css/components.css" rel="stylesheet">
+  
 </head>
 <body>
   <div class="layout">
     
-    <header class="header">
-      <div class="header-wrapper">
+    <div class="header layout_item--full-width gutter--horizontal">
+      <div class="header-wrapper layout_item--70-percent layout_item--centered-horizontally  clearfix">
         <div class="header-content">
-          <img href="assets/logo_50.svg" alt="logo text" class="logo">
+          <img src="assets/logo_50.svg" alt="logo text" class="logo">
           <nav class="horizontal-navigation-bar">
             <a href="#" class="navigation-link">Home</a>
             <a href="#" class="navigation-link">About</a>
@@ -25,40 +26,35 @@
           </nav>
         </div>
       </div>
-    </header>
-    
-    
-    
-    <div class="container personal-info-with-map">
-      <div class="personal-info-wrapper">
-        <div class="personal-info-content">
-          <div class="container-image">
-            <img src="assets/logo_50.svg" alt="logo" class="logo">
-          </div>
-          <div class="container-personal-info">
-            <h6 class="secondary-header">Adress</h6>
-            <p class="secondary-paragraph">3481 Melrose Avenue</p>
-            <p class="secondary-paragraph">Beverly Hills, CA 90210, USA</p>
-            <h6 class="secondary-header">(123) 456-7890</h6>
-            <h6 class="secondary-header">name@example.com</h6>
-            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-          </div>
-        </div>
-      </div>
     </div>
+   
     
-    <div class="container contact-us-container">
-      <div class="contact-us-wrapper">
-        <div class="contact-us-content">
-          <h2 class="primary-header">Contact us</h2>
-          <p class="primary-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et</p>
-          <input type="text" placeholder="Name" class="input text-input">
-          <input type="email" placeholder="Enter Email" class="input text-input">
-          <input type="text" placeholder="Enter your Message..." class="input message-input">
-          <a href="#" class="button submit-button">Submit</a>
-        </div>
+    
+    <div class="layout_item--content-w-sticked-footer  layout_item--70-percent  layout_item--centered-horizontally  gutter--horizontal  clearfix">
+          <div class="personal_info-content container layout_item--49-percent-with-gutter layout_item--floated-left">
+            <div class="container-image">
+              <img src="" alt="" class="">
+            </div>
+            <div class="container-personal-info">
+              <h6 class="secondary-header">Adress</h6>
+              <p class="secondary-paragraph">3481 Melrose Avenue</p>
+              <p class="secondary-paragraph">Beverly Hills, CA 90210, USA</p>
+              <h6 class="secondary-header">(123) 456-7890</h6>
+              <h6 class="secondary-header">name@example.com</h6>
+              <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+    
+    
+      <div class="contact_us-content container layout_item--49-percent-with-gutter layout_item--floated-right">
+        <h2 class="primary-header">Contact us</h2>
+        <p class="primary-paragraph">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam  nonumy eirmod tempor invidunt ut labore et</p>
+        <input type="text" placeholder="Name" class="input text-input">
+        <input type="email" placeholder="Enter Email" class="input text-input">
+        <input type="text" placeholder="Enter your Message..." class="input message-input">
+        <a href="#" class="button submit-button">Submit</a>
       </div>
     </div>
     
