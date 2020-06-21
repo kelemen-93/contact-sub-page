@@ -26,15 +26,15 @@
 
 /* === Header_Horizontal Navivgation Bar === */
 
-.navigation-link:first-child {
-  margin-right: 68px;
-}
-
 .navigation-link {
   color: #f4f3f5;
   opacity: 0.65;
-  padding-bottom: 28px;
-  margin-right: 60px;
+  padding-bottom: 2rem;
+  margin-right: 4.286rem;
+}
+
+.navigation-link:first-child {
+  margin-right: 4.857rem;
 }
 
 .navigation-link:last-child {
@@ -53,23 +53,19 @@
 /* === Containers === */
 
 .container {
-  border-radius: 15px;
-  padding: 60px;
+  border-radius: 1.071rem;
+  padding: 4.286rem;
   background-color: #ffffff;
   height: 640px;
 }
 
 .container-image {
-  border-radius: 15px;
+  border-radius: 1.071rem;
   width: 100%;
 }
 
 .container-personal-info {
   height: 210px;
-}
-
-.simple-paragraph {
-  font-size: 14px;
 }
 
 .social-link-container {
@@ -79,14 +75,14 @@
 .social-link {
   background-color: #6200ea;
   color: #ffffff;
-  font-size: 20px;
-  border-radius: 18px;
-  padding: 9px;
-  margin-right: 10px;
+  font-size: 1.428rem;
+  border-radius: 1.286rem;
+  padding: 0.643rem;
+  margin-right: 0.714rem;
 }
 
 .social-link:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .social-link:visited {
@@ -98,9 +94,9 @@
 
 .input {
   color: #211138;
-  padding-top: 16px;
-  padding-left: 24px;
-  border: 0px;
+  padding-top: 1.143rem;
+  padding-left: 1.714rem;
+  border: 0rem;
 }
 
 .text-input, .message-input {
@@ -110,13 +106,13 @@
 .text-input {
   height: 50px;
   width: 100%;
-  padding-bottom: 13px;
+  padding-bottom: 0.929rem;
 }
 
 .message-input {
   height: 150px;
   width: 100%;
-  padding-bottom: 116px;
+  padding-bottom: 8.286rem;
 }
 
 .input:hover {
@@ -129,10 +125,10 @@
 .button {
   display: inline-block;
   width: 100%;
-  border-radius: 24px;
-  border: 2px solid #6200ea;
+  border-radius: 1.714rem;
+  border: 0.143rem solid #6200ea;
   color: #ffffff;
-  padding: 18px 0px;
+  padding: 1.286rem 0rem;
   text-align: center;
   background-color: #6200ea;
   color: #ffffff;
@@ -146,7 +142,7 @@
 
 footer {
   height: 100px;
-  padding: 43px 0px 42px 0px;
+  padding: 3.071rem 0rem 3rem 0rem;
   text-align: center;
   background-color: #211138;
 }
@@ -159,6 +155,6 @@ footer {
   color: #b2acba;
 }
 
-.footer-brand-name, .footer-student-name {
+.copyright-brand-name, .copyright-student-name {
   color: #6200ea;
 }

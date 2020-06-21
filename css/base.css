@@ -29,21 +29,21 @@ body {
 }
 
 h6, a, input, h2 {
-  font-size: 12px;
+  font-size: 0.857rem;
   font-weight: bold;
 }
 
 h6, a {
   text-transform: uppercase;
-  letter-spacing: 2.4px;
+  letter-spacing: 0.171rem;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 2.857rem;
 }
 
 .social-link-container, .phone-number, .address {
-  margin-top: 30px;
+  margin-top: 2.143rem;
 }
 
 .address, .phone-number, .email {
@@ -51,8 +51,8 @@ h2 {
 }
 
 .large-paragraph {
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0px;
+  font-size: 1.428rem;
+  line-height: 2.143rem;
+  letter-spacing: 0rem;
   font-weight: normal;
 }

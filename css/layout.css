@@ -18,7 +18,7 @@
 }
 
 .layout_item--49-percent-with-gutter {
-  width: calc(49% - 15px);
+  width: calc(49% - 1.071rem);
 }
 
 .layout_item--content-w-sticked-footer {
@@ -41,7 +41,7 @@
 /* === Intervals === */
 
 .gutter--horizontal {
-  margin-bottom: 40px;
+  margin-bottom: 2.857rem;
 }
 
 /* === Helpers === */
