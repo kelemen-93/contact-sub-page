@@ -56,20 +56,37 @@
   border-radius: 15px;
   padding: 60px;
   background-color: #ffffff;
+  height: 640px;
 }
 
 .container-image {
-  height: 280px;
   border-radius: 15px;
+  width: 100%;
 }
 
 .container-personal-info {
   height: 210px;
 }
 
+.simple-paragraph {
+  font-size: 14px;
+}
+
+.social-link-container {
+  height: 40px;
+}
+
 .social-link {
   background-color: #6200ea;
   color: #ffffff;
+  font-size: 20px;
+  border-radius: 18px;
+  padding: 9px;
+  margin-right: 10px;
+}
+
+.social-link:last-child {
+  margin-right: 0px;
 }
 
 .social-link:visited {
